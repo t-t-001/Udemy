@@ -17,8 +17,26 @@
                 <a href="/">ホームへ戻る</a>
             </div>
         </div>
-        <p>フォームにご記入ください</p>
     </div>
+    <hr class="bg-info">
+    <div class="container">
+        <p>フォームにご記入ください</p>
+        <form action="" method="post">
+            <div class="mb-3">
+                <label for="myname" class="form-label">お名前</label>
+                <input type="text" class="form-control" name="myname" id="myname" placeholder="山田　太郎">
+            </div>
+            <div class="mb-3">
+                <label for="job" class="form-label">ご職業</label>
+                <select class="form-select" aria-label="ご職業">
+                    <option value="">選択してください</option>
+                    <option value="1">会社員</option>
+                    <option value="2">学生</option>
+                    <option value="3">その他</option>
+                 </select>
+            </div>
+        </form>
+     </div>
     
 </body>
 </html>
